@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelgridhub Web Design under ₹6999/-</title>
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="preload" as="style" href="https://cdn.tailwindcss.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Pixelgrid Hub Studio in Trichy builds responsive websites, e-commerce platforms & portfolio sites for businesses across Tamil Nadu and India.">
+    <meta name="keywords" content="Web design Trichy, Website development Tamil Nadu, E-commerce developer Trichy, Portfolio website Trichy">
+    <meta name="author" content="Pixelgridhub">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pixelgridhub.in/">
+    
+    <!-- Geo Location Meta Tags -->
+    <meta name="geo.region" content="IN-TN">
+    <meta name="geo.placename" content="Trichy, Tamil Nadu">
+    <meta name="geo.position" content="10.7905;78.7047">
+    <meta name="ICBM" content="10.7905, 78.7047">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pixelgridhub Web Design Under ₹6999/-">
+    <meta property="og:description" content="Responsive websites, e-commerce stores & digital solutions crafted from Trichy for Tamil Nadu and India.">
+    <meta property="og:url" content="https://pixelgridhub.in/">
+    <meta property="og:image" content="cropped_circle_image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Pixelgridhub">
+    <meta property="og:locale" content="en_IN">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pixelgrid Hub – Web Design in Trichy, Tamil Nadu">
+    <meta name="twitter:description" content="Pixelgrid Hub creates professional websites & e-commerce platforms for Tamil Nadu & India.">
+    <meta name="twitter:image" content="cropped_circle_image.png">
+    <meta name="twitter:site" content="@pixelgridhub">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Pixelgrid Hub Studio",
+      "url": "https://pixelgridhub.in/",
+      "logo": "cropped_circle_image.png",
+      "image": "cropped_circle_image.png",
+      "description": "Leading web design and e-commerce development studio in Trichy, Tamil Nadu.",
+      "telephone": "+919597513372",
+      "email": "contact@pixelgridhub.blog",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1st Street Koothappar Nagar, Thiruverumbur",
+        "addressLocality": "Trichy",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "620013",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.7905,
+        "longitude": 78.7047
+      },
+      "openingHours": "Mo-Fr 09:00-18:00, Sa 09:00-14:00",
+      "priceRange": "₹₹",
+      "areaServed": ["Tamil Nadu", "India"],
+      "sameAs": ["https://www.instagram.com/pixelgridhub/"]
+    }
+    </script>
+
+    <style>
+        :root {
+            --color-start: #1a1a2e;
+            --color-mid: #16213e;
+            --color-end: #0f3460;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #e0e0e0;
+            overflow-x: hidden;
+            background: var(--color-start);
+            transition: background-color 1.5s ease;
+        }
+        
+        /* Critical above-the-fold styles */
+        .bg-animated, .noise-overlay, .gradient-blob {
+            position: fixed;
+            z-index: -2;
+        }
+        
+        .bg-animated {
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(135deg, var(--color-start), var(--color-mid), var(--color-end));
+            animation: gradient-shift 15s ease infinite alternate;
+            transition: background 1.5s ease;
+        }
+
+        .noise-overlay {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            background-size: cover;
+            opacity: 0.1;
+            mix-blend-mode: overlay;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes gradient-shift {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .gradient-blob {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(99, 179, 237, 0.3) 0%, rgba(99, 179, 237, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            transition: transform 0.2s ease-out;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        /* Defer non-critical styles */
+        .show-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+
+        .show-on-scroll.active {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .card {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Mobile styles */
+        @media (max-width: 767px) {
+            .hamburger-btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 2rem;
+                height: 2rem;
+                cursor: pointer;
+                z-index: 50;
+            }
+
+            .hamburger-btn span {
+                display: block;
+                width: 100%;
+                height: 3px;
+                background-color: white;
+                transition: all 0.3s ease-in-out;
+                border-radius: 9999px;
+            }
+
+            .hamburger-btn.open span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+
+            .hamburger-btn.open span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .hamburger-btn.open span:nth-child(3) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+            
+            .main-nav {
+                display: none;
+            }
+
+            .main-nav.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(22, 33, 62, 0.9);
+                backdrop-filter: blur(10px);
+                padding: 1rem 0;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+    </style>
+    
+    <!-- Deferred styles -->
+    <link rel="preload" as="style" href="data:text/css,.card:hover{transform:translateY(-10px);box-shadow:0 10px 20px rgba(0,0,0,0.2)}.project-image:hover{transform:scale(1.05)}.interactive-text span:hover{color:#63b3ed;text-shadow:0 0 10px #63b3ed}" onload="this.rel='stylesheet'">
+</head>
+<body class="min-h-screen">
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="cropped_circle_image.png">
+    
+    <div class="bg-animated"></div>
+    <div class="noise-overlay"></div>
+    <div class="gradient-blob"></div>
+    
+    <header class="sticky top-0 z-50 p-6 bg-transparent backdrop-blur-md">
+        <nav class="container mx-auto flex justify-between items-center relative p-4 bg-transparent">
+            <a href="#" class="inline-flex items-center">
+                <img src="cropped_circle_image.png" alt="Pixelgrid Hub Logo" class="h-8 w-auto" loading="eager" width="32" height="32">
+                <span class="pixelgrid-text font-semibold ml-2">Pixelgrid Hub</span>
+                <span class="text-xs bg-blue-500 text-white px-2 py-1 rounded-full ml-2">Studio</span>
+            </a>
+
+            <div class="hamburger-btn md:hidden" id="hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul id="main-nav" class="main-nav md:flex md:space-x-8 hidden">
+                <li><a href="#home" class="text-white hover:text-blue-400 transition-colors duration-300">Home</a></li>
+                <li><a href="#showcase" class="text-white hover:text-blue-400 transition-colors duration-300">Showcase</a></li>
+                <li><a href="#ecommerce" class="text-white hover:text-blue-400 transition-colors duration-300">E-Commerce</a></li>
+                <li><a href="#admin-panel-section" class="text-white hover:text-blue-400 transition-colors duration-300">Admin</a></li>
+                <li><a href="#contact" class="text-white hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+
+        <style>
+            .hamburger-btn {
+                display: none;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 2.5rem;
+                height: 2.5rem;
+                cursor: pointer;
+                z-index: 50;
+                padding: 0.5rem;
+                position: absolute;
+                top: 50%;
+                right: 1rem;
+                transform: translateY(-50%);
+            }
+            .hamburger-btn span {
+                display: block;
+                width: 100%;
+                height: 3px;
+                background-color: white;
+                transition: all 0.3s ease-in-out;
+                border-radius: 9999px;
+            }
+            .hamburger-btn.open span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            .hamburger-btn.open span:nth-child(2) {
+                opacity: 0;
+            }
+            .hamburger-btn.open span:nth-child(3) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+            .main-nav {
+                display: flex;
+                gap: 2rem;
+            }
+            @media (max-width: 767px) {
+                .hamburger-btn {
+                    display: flex;
+                }
+                .main-nav {
+                    display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    width: 200px;
+                    background: rgba(22, 33, 62, 0.95);
+                    backdrop-filter: blur(10px);
+                    padding: 1rem;
+                    border-radius: 0 0 0.5rem 0.5rem;
+                }
+                .main-nav.open {
+                    display: flex;
+                }
+                .main-nav li {
+                    margin-bottom: 1rem;
+                }
+                .main-nav li:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .pixelgrid-text {
+                background: linear-gradient(90deg, #8A2BE2, #FF1493);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            
+            /* Optimized hover effects */
+            .card {
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            }
+            .card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+            .project-image {
+                transition: transform 0.3s ease-in-out;
+            }
+            .project-image:hover {
+                transform: scale(1.05);
+            }
+            .interactive-text span {
+                display: inline-block;
+                transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+            }
+            .interactive-text span:hover {
+                color: #63b3ed;
+                text-shadow: 0 0 10px #63b3ed;
+            }
+            .word-animation {
+                opacity: 0;
+                transform: translateY(20px);
+                display: inline-block;
+            }
+            .word-animation.active {
+                opacity: 1;
+                transform: translateY(0);
+                transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            }
+        </style>
+    </header>
+    
+    <main class="container mx-auto p-6 relative z-10">
+        <section id="home" class="min-h-screen flex items-center justify-center text-center py-20">
+            <div class="flex flex-col items-center justify-center space-y-6 show-on-scroll">
+                <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight interactive-text">
+                    Crafting <span class="hover:text-blue-400">Digital</span> Experiences That <span class="hover:text-blue-400">Connect.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+                    We specialize in creating unique, responsive, and visually stunning websites that not only look incredible but also <span class="word-animation">drive results.</span> From captivating landing pages to powerful e-commerce platforms, we build digital solutions that make your brand stand out.
+                </p>
+                <div class="pt-8">
+                    <a href="#showcase" class="inline-block px-8 py-4 bg-blue-500 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105 duration-300">
+                        Explore Our Work
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="py-20">
+            <h2 class="text-5xl font-bold text-center text-white mb-16 show-on-scroll">Our Showcase</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="card p-6 rounded-3xl show-on-scroll">
+                    <img src="h..png" alt="Project 1" class="rounded-2xl mb-4 w-full project-image" loading="lazy" width="400" height="250">
+                    <h3 class="text-2xl font-semibold text-white show-on-scroll">Landing Page</h3>
+                    <p class="text-gray-400 mt-2 show-on-scroll">A sleek, professional landing page designed for a tech startup, featuring interactive elements and a clean user interface.</p>
+                </div>
+                <div class="card p-6 rounded-3xl show-on-scroll">
+                    <img src="ecom.avif" alt="Project 2" class="rounded-2xl mb-4 w-full project-image" loading="lazy" width="400" height="250">
+                    <h3 class="text-2xl font-semibold text-white show-on-scroll">E-commerce Store</h3>
+                    <p class="text-gray-400 mt-2 show-on-scroll">An elegant online store with a custom product catalog and a seamless checkout experience.</p>
+                </div>
+                <div class="card p-6 rounded-3xl show-on-scroll">
+                    <img src="k..png" alt="Project 4" class="rounded-2xl mb-4 w-full project-image" loading="lazy" width="400" height="250">
+                    <h3 class="text-2xl font-semibold text-white show-on-scroll">IT Solution</h3>
+                    <p class="text-gray-400 mt-2 show-on-scroll">A modern website with a dynamic menu and an easy-to-use interface for IT solutions business.</p>
+                </div>
+                <div class="card p-6 rounded-3xl show-on-scroll">
+                    <img src="43wzcmyy3 - HTML - OneCompiler - Google Chrome 18-09-2025 12_33_48.png" alt="Project 5" class="rounded-2xl mb-4 w-full project-image" loading="lazy" width="400" height="250">
+                    <h3 class="text-2xl font-semibold text-white show-on-scroll">Educational Portal</h3>
+                    <p class="text-gray-400 mt-2 show-on-scroll">An online learning platform with user dashboards and interactive lesson plans.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecommerce" class="py-20">
+            <h2 class="text-5xl font-bold text-center text-white mb-16 show-on-scroll">Our E-commerce Solution</h2>
+            <div class="card p-8 rounded-3xl show-on-scroll">
+                <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                    <div class="lg:w-1/2">
+                        <img src="hghj.avif" alt="E-commerce Platform" class="rounded-2xl w-full" loading="lazy" width="600" height="400">
+                    </div>
+                    <div class="lg:w-1/2 mt-8 lg:mt-0 space-y-6">
+                        <h3 class="text-4xl font-semibold text-white show-on-scroll">Seamless Shopping Experience</h3>
+                        <p class="text-gray-300 show-on-scroll">Our e-commerce solutions are built for performance and user satisfaction.</p>
+                        <ul class="text-gray-300 space-y-2 show-on-scroll">
+                            <li><span class="text-blue-400">&#x2713;</span> Custom Product Pages</li>
+                            <li><span class="text-blue-400">&#x2713;</span> Integrated Payment Solutions</li>
+                            <li><span class="text-blue-400">&#x2713;</span> Real-time Inventory Management</li>
+                            <li><span class="text-blue-400">&#x2713;</span> User-friendly Checkout Process</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section id="Our Project" class="py-20">
+                    <h2 class="text-5xl font-bold text-center text-white mb-16 show-on-scroll">Our Project</h2>
+            <div class="card p-8 rounded-3xl show-on-scroll">
+                <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                    <div class="lg:w-1/2">
+                        <img src="https://sreealagarenterprises.in/logo.jpg" alt="Sree Alagar Enterprises" class="rounded-2xl w-full" loading="lazy" width="600" height="400">
+                    </div>
+                     <h3>Sree Alagar Enterprises</h3>
+<p>
+  This is a website I built for Sree Alagar Enterprises, a business specializing in custom-made garments in Trichy. I developed the site using technologies like HTML, TailwindCSS, JavaScript, and some elements etc.
+</p>
+<a href="https://sreealagarenterprises.in" target="_blank"class="inline-block mt-8 w-full text-center bg-blue-500 text-white py-3 rounded-full hover:bg-blue-600 transition-all duration-300">
+                        View Live Website</a>
+                         </section>
+         <!-- Pricing Section -->
+    <section id="pricing" class="py-20 gradient-bg section-animate">
+        <div class="container mx-auto px-4 md:px-8 lg:px-12">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-100">Our Packages</h2>
+                <p class="text-lg text-gray-400 mt-2">Simple, transparent pricing for every budget.</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8">
+                <!-- Package 1: Starter -->
+                <div class="bg-gray-800 p-6 sm:p-10 rounded-2xl shadow-lg w-full max-w-sm card-hover transition-all duration-300">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-100">Starter</h3>
+                    <p class="text-gray-400 mb-4">Perfect for personal blogs and small businesses.</p>
+                    <p class="text-5xl font-extrabold text-white">₹6999</p>
+                    <ul class="mt-6 space-y-3 text-gray-300">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Dynamic 4 Pages</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Responsive Design</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Basic SEO</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Contact Form</li>
+                         <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> 24/hrs Services </li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Website Optimization </li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Free Hosting </li>
+                    </ul>
+                    <a href="#contact" class="inline-block mt-8 w-full text-center bg-blue-500 text-white py-3 rounded-full hover:bg-blue-600 transition-all duration-300">
+                        Get Started
+                    </a>
+                </div>
+                <!-- Package 2: Premium -->
+                <div class="bg-gray-800 p-6 sm:p-10 rounded-2xl shadow-lg border-2 border-blue-400 w-full max-w-sm card-hover transition-all duration-300 relative overflow-hidden">
+                    <span class="absolute top-0 right-0 bg-blue-400 text-xs font-bold text-white px-3 py-1 rounded-bl-lg">
+                        POPULAR
+                    </span>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-100">Premium</h3>
+                    <p class="text-gray-400 mb-4">For growing businesses needing more features.</p>
+                    <p class="text-5xl font-extrabold text-white">₹12999</p>
+                    <ul class="mt-6 space-y-3 text-gray-300">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Dynamic 8 Pages</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Advanced SEO</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Blog Integration</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> AI Chat Box</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Enquiry Form</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Whatsapp Enquiry</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> 24/hrs Services </li>
+                         <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Free domain (.in &.com) </li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Payment intergration</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Whatsapp Enquiry</li>
+                         <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Just ₹300/Month for bug checking </li>
+                    </ul>
+                    <a href="#contact" class="inline-block mt-8 w-full text-center bg-blue-500 text-white py-3 rounded-full hover:bg-blue-600 transition-all duration-300">
+                        Choose Plan
+                    </a>
+                </div>
+                  <!-- E-commerce Package: Pro -->
+    <div class="bg-gray-800 p-6 sm:p-10 rounded-2xl shadow-lg w-full max-w-sm card-hover transition-all duration-300">
+        <h3 class="text-2xl font-bold mb-2 text-gray-100">Pro E-commerce</h3>
+        <p class="text-gray-400 mb-4">Ideal for online stores and growing businesses.</p>
+        <p class="text-5xl font-extrabold text-white">₹25999</p>
+        <ul class="mt-6 space-y-3 text-gray-300">
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> E-commerce Integration</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Payment Gateway Setup</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Unlimited Products</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Product Management System</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Order Tracking & Management</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Social Media Integration</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Advanced SEO</li>
+        </ul>
+        <a href="#contact" class="inline-block mt-8 w-full text-center bg-blue-500 text-white py-3 rounded-full hover:bg-blue-600 transition-all duration-300">
+            Get Started
+        </a>
+    </div>
+    <!-- E-commerce Package: Business -->
+    <div class="bg-gray-800 p-6 sm:p-10 rounded-2xl shadow-lg w-full max-w-sm card-hover transition-all duration-300">
+        <h3 class="text-2xl font-bold mb-2 text-gray-100">Business E-commerce</h3>
+        <p class="text-gray-400 mb-4">For established brands and high-volume sales.</p>
+        <p class="text-5xl font-extrabold text-white">₹39999</p>
+        <ul class="mt-6 space-y-3 text-gray-300">
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> All Pro Features</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Multi-vendor Marketplace</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Personalized Customer Support</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Advanced Analytics</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Social & Search Ads Management</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> 24/7 Priority Support</li>
+            <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Dedicated Account Manager</li>
+        </ul>
+        <a href="#contact" class="inline-block mt-8 w-full text-center bg-blue-500 text-white py-3 rounded-full hover:bg-blue-600 transition-all duration-300">
+            Get Started
+        </a>
+    </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="admin-panel-section" class="py-20">
+            <h2 class="text-5xl font-bold text-center text-white mb-16 show-on-scroll">Admin Panel</h2>
+            <div class="card p-8 rounded-3xl show-on-scroll text-center">
+                <p class="text-gray-300 text-lg mb-6">Manage your site with a powerful and easy-to-use admin panel.</p>
+                <button id="toggleAdmin" class="px-8 py-4 bg-blue-500 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105 duration-300">Toggle Admin Panel Features</button>
+            </div>
+            
+            <div id="admin-panel" class="card mt-8 p-8 rounded-3xl hidden">
+                <h3 class="text-3xl font-semibold text-white mb-6 show-on-scroll">Website Admin Dashboard</h3>
+                <p class="text-gray-400 mb-4 show-on-scroll">You can manage website content, add new projects, and handle e-commerce orders from here.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="p-4 bg-gray-800 rounded-xl show-on-scroll">
+                        <h4 class="text-xl font-medium text-white mb-2">View Orders</h4>
+                        <p class="text-gray-400">Track and manage all your e-commerce orders and customer details.</p>
+                        <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600">Go to Orders</button>
+                    </div>
+                    <div class="p-4 bg-gray-800 rounded-xl show-on-scroll">
+                        <h4 class="text-xl font-medium text-white mb-2">User Analytics</h4>
+                        <p class="text-gray-400">See insights into your website traffic and user behavior.</p>
+                        <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600">Go to Analytics</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proprietor" class="relative py-16">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-300/70 to-violet-400/70"></div>
+            <div class="relative max-w-6xl mx-auto px-6 md:px-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Meet the Proprietor</h2>
+                <div class="backdrop-blur-md bg-white/20 border border-white/30 rounded-2xl shadow-lg p-8 md:p-12 max-w-3xl mx-auto">
+                    <img src="IMG_20250923_074109.jpg" alt="Jerome – Proprietor PixelGridHub" class="w-32 h-32 mx-auto rounded-full shadow-md border-4 border-violet-400" loading="lazy" width="128" height="128">
+                    <h3 class="text-2xl font-semibold text-white mt-6">Jerome J</h3>
+                    <p class="text-violet-100 text-sm mb-4">Proprietor, PixelGridHub</p>
+                    <p class="text-white leading-relaxed">Jerome J is the founder and proprietor of <span class="font-semibold">PixelGridHub</span>. With a strong vision for digital creativity, he has built PixelGridHub into a studio that specializes in website redesign, logo design, portfolio sites, landing pages, SEO solutions, and e-commerce platforms.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="social" class="py-20 text-center">
+            <h2 class="text-5xl font-bold text-white mb-6 show-on-scroll">Follow Our Journey</h2>
+            <p class="text-xl text-gray-300 mb-8 show-on-scroll">For more content and project updates, check out our Instagram.</p>
+            <a href="https://instagram.com/pixelgridhub" target="_blank" class="inline-block px-8 py-4 bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-purple-700 transition-transform transform hover:scale-105 duration-300 show-on-scroll">@pixelgridhub</a>
+        </section>
+
+        <section id="contact" class="py-20">
+            <h2 class="text-5xl font-bold text-center text-white mb-16 show-on-scroll">Get in Touch</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="card p-8 rounded-3xl show-on-scroll">
+                    <h3 class="text-3xl font-semibold text-white mb-6">Send Us a Message</h3>
+                    <form action="https://formspree.io/f/mvgbnzko" method="POST" class="space-y-6">
+                        <div><label for="email" class="block text-gray-400 mb-2">Your Email:</label><input type="email" id="email" name="email" placeholder="you@example.com" required class="w-full p-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                        <div><label for="number" class="block text-gray-400 mb-2">Your Number:</label><input type="tel" id="number" name="number" placeholder="e.g., +15551234567" class="w-full p-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                        <div><label for="message" class="block text-gray-400 mb-2">Your Message:</label><textarea id="message" name="message" rows="5" placeholder="Let's build something great together..." required class="w-full p-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea></div>
+                        <button type="submit" class="w-full px-8 py-4 bg-blue-500 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105 duration-300">Send</button>
+                    </form>
+                </div>
+                <div class="card p-8 rounded-3xl show-on-scroll">
+                    <h3 class="text-3xl font-semibold text-white mb-6">Our Location</h3>
+                    <div class="w-full h-96 rounded-2xl overflow-hidden">
+                        <iframe src="https://maps.google.com/maps?q=10.790485238631522,78.77866993533787&hl=en&z=14&output=embed" width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/9597513372?text=Hi%2C%20I%20would%20like%20to%20get%20in%20touch%20with%20PixelGridHub%20regarding%20your%20services." 
+   target="_blank" 
+   id="whatsapp-float" 
+   class="fixed left-8 bottom-16 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20.52 3.48C18.52 1.48 15.88.5 13.12.5 6.6.5 1.5 5.6 1.5 12.12c0 2.28.6 4.44 1.76 6.32L.5 23l4.64-1.76c1.84 1.16 4 1.76 6.28 1.76 6.52 0 11.62-5.1 11.62-11.62 0-2.76-1-5.4-3-7.4zM13.12 21c-2.12 0-4.16-.56-5.92-1.6l-.42-.26-2.76 1.04 1.04-2.72-.28-.44C4.1 16.04 3.5 14.08 3.5 12.12c0-5.34 4.34-9.68 9.68-9.68 2.58 0 5.02 1 6.84 2.82 1.82 1.82 2.82 4.26 2.82 6.84 0 5.34-4.34 9.68-9.68 9.68zm5.3-7.84c-.28-.14-1.64-.82-1.88-.92-.24-.1-.42-.14-.6.14-.18.28-.7.92-.86 1.12-.16.18-.32.2-.6.06-.28-.14-1.18-.44-2.24-1.38-.83-.74-1.38-1.66-1.54-1.94-.16-.28-.02-.42.12-.56.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.1-.18.04-.34-.02-.48-.06-.14-.6-1.44-.82-1.98-.22-.52-.44-.46-.6-.46-.16 0-.34-.02-.52-.02s-.48.06-.74.34c-.26.28-1 1-1 2.44s1.02 2.82 1.16 3c.14.18 2.02 3.08 4.88 4.32 2.06.9 2.9.94 3.96.88.64-.04 1.64-.66 1.88-1.3.24-.64.24-1.18.16-1.3-.08-.12-.28-.18-.56-.32z"/>
+    </svg>
+</a>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <button id="scrollUpBtn" class="fixed bottom-4 left-4 p-3 rounded-full shadow-lg bg-gradient-to-r from-violet-500 to-sky-400 text-white text-xl hidden z-50">↑</button>
+
+    <footer class="p-6 text-center text-gray-400 border-t border-gray-700">
+        <p>&copy; 2024 Pixelgrid Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Deferred JavaScript -->
+    <script>
+        // Loader removal
+        setTimeout(() => {
+            document.getElementById("loader").style.display = "none";
+        }, 1000); // Reduced from 2000ms to 1000ms
+
+        // Scroll to top button
+        window.onscroll = function() {
+            let btn = document.getElementById("scrollUpBtn");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+
+        document.getElementById("scrollUpBtn").onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        // Main functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const showOnScrollElements = document.querySelectorAll('.show-on-scroll');
+            const toggleAdminBtn = document.getElementById('toggleAdmin');
+            const adminPanel = document.getElementById('admin-panel');
+            const hamburgerBtn = document.getElementById('hamburger-btn');
+            const mainNav = document.getElementById('main-nav');
+            const wordAnimations = document.querySelectorAll('.word-animation');
+            const gradientBlob = document.querySelector('.gradient-blob');
+            const root = document.documentElement;
+
+            // Scroll animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            showOnScrollElements.forEach(element => {
+                observer.observe(element);
+            });
+            
+            const wordObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        wordAnimations.forEach((word, index) => {
+                            setTimeout(() => {
+                                word.classList.add('active');
+                            }, index * 200);
+                        });
+                        wordObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            const homeSectionParagraph = document.querySelector('#home p');
+            if (homeSectionParagraph) {
+                wordObserver.observe(homeSectionParagraph);
+            }
+
+            // Admin panel toggle
+            toggleAdminBtn.addEventListener('click', () => {
+                adminPanel.classList.toggle('hidden');
+                if (!adminPanel.classList.contains('hidden')) {
+                    adminPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+
+            // Mobile menu
+            hamburgerBtn.addEventListener('click', () => {
+                hamburgerBtn.classList.toggle('open');
+                mainNav.classList.toggle('open');
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 767) {
+                        mainNav.classList.remove('open');
+                        hamburgerBtn.classList.remove('open');
+                    }
+                });
+            });
+
+            // Cursor effect
+            document.addEventListener('mousemove', (e) => {
+                gradientBlob.style.transform = `translate(${e.clientX}px, ${e.clientY}px) translate(-50%, -50%)`;
+            });
+
+            // Color cycling
+            const colors = {
+                palette1: ['#1a1a2e', '#16213e', '#0f3460'],
+                palette2: ['#0f3460', '#16213e', '#1a1a2e'],
+            };
+            let currentPalette = 1;
+
+            function cycleColors() {
+                const newPalette = (currentPalette === 1) ? colors.palette2 : colors.palette1;
+                root.style.setProperty('--color-start', newPalette[0]);
+                root.style.setProperty('--color-mid', newPalette[1]);
+                root.style.setProperty('--color-end', newPalette[2]);
+                currentPalette = (currentPalette === 1) ? 2 : 1;
+            }
+
+            setInterval(cycleColors, 15000);
+        });
+    </script>
+
+    <!-- Tawk.to Chat - Load after main content -->
+    <script defer>
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/68cb1eaea237bc19238aaf4e/1j5cmvmh4';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <style>
+        /* Loader styles */
+        #loader {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: linear-gradient(135deg, #3b82f6, #9333ea);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .spinner {
+            width: 70px;
+            height: 70px;
+            border: 6px solid rgba(255, 255, 255, 0.3);
+            border-top: 6px solid #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Deferred hover effects */
+        .card { transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
+        .project-image { transition: transform 0.3s ease-in-out; }
+        .interactive-text span { transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; }
+        .word-animation.active { transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .show-on-scroll.active { transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+    </style>
+</body>
+</html>
+
+
+
+
+
+
+
